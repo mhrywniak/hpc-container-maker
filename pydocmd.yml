@@ -1,5 +1,14 @@
 # Configuration file for pydocmd
-# Run "pydocmd generate" to generate updated documentation
+# Run "pydocmd generate" to generate updated documentation.
+#
+# IMPORTANT: 
+# Newer pydoc-markdown 2.1.x changed the `simple` preprocessor so that a
+# blank line resets the active section, which breaks parameter formatting
+# in HPCCM docstrings (every "param: description" line ends up unbulleted
+# and unbolded instead of "- __param__: description"). 
+#
+# The recommended way to regenerate the docs is to use regenerate-docs.sh,
+# which pins the toolchain. See that script for details.
 site_name: "HPC Container Maker"
 
 generate:

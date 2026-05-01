@@ -150,7 +150,7 @@ __Arguments__
 
 # recipe
 ```python
-recipe(recipe_file, cpu_target=None, ctype=<container_type.DOCKER: 1>, raise_exceptions=False, single_stage=False, singularity_version=u'2.6', userarg=None, working_directory=u'/var/tmp', singularity_tmp_fallback=True)
+recipe(recipe_file, cpu_target=None, ctype=<container_type.DOCKER: 1>, raise_exceptions=False, single_stage=False, singularity_version='2.6', userarg=None, working_directory='/var/tmp', singularity_tmp_fallback=True)
 ```
 Recipe builder
 
@@ -209,7 +209,7 @@ The default is an empty string.
 
 ## baseimage
 ```python
-Stage.baseimage(self, image, _distro=u'')
+Stage.baseimage(self, image, _distro='')
 ```
 Insert the baseimage as the first layer
 

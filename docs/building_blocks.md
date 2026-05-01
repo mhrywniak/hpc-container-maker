@@ -56,7 +56,7 @@ amgx(branch='v2.1.0')
 
 ## runtime
 ```python
-amgx.runtime(self, _from=u'0')
+amgx.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -186,7 +186,7 @@ arm_allinea_studio(eula=True,
 
 ## runtime
 ```python
-arm_allinea_studio.runtime(self, _from=u'0')
+arm_allinea_studio.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -262,7 +262,7 @@ boost(sourceforge=True, version='1.57.0')
 
 ## runtime
 ```python
-boost.runtime(self, _from=u'0')
+boost.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -350,7 +350,7 @@ catalyst(prefix='/opt/catalyst/5.6.0', version='5.6.0')
 
 ## runtime
 ```python
-catalyst.runtime(self, _from=u'0')
+catalyst.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -431,7 +431,7 @@ cgns(prefix='/opt/cgns/3.3.1', version='3.3.1')
 
 ## runtime
 ```python
-cgns.runtime(self, _from=u'0')
+cgns.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -506,7 +506,7 @@ charm(target_architecture='mpi-linux-x86_64')
 
 ## runtime
 ```python
-charm.runtime(self, _from=u'0')
+charm.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -621,7 +621,7 @@ conda(environment='environment.yml')
 
 ## runtime
 ```python
-conda.runtime(self, _from=u'0')
+conda.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -682,7 +682,7 @@ doca_ofed(version='3.2.0')
 
 ## runtime
 ```python
-doca_ofed.runtime(self, _from=u'0')
+doca_ofed.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -796,7 +796,7 @@ fftw(check=True, configure_opts=['--enable-shared', '--enable-threads',
 
 ## runtime
 ```python
-fftw.runtime(self, _from=u'0')
+fftw.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -859,7 +859,7 @@ gdrcopy(prefix='/opt/gdrcopy/2.1', version='2.1')
 
 ## runtime
 ```python
-gdrcopy.runtime(self, _from=u'0')
+gdrcopy.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -1019,7 +1019,7 @@ generic_autotools(preconfigure=['./autogen.sh'],
 
 ## runtime
 ```python
-generic_autotools.runtime(self, _from=u'0')
+generic_autotools.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -1127,7 +1127,7 @@ generic_build(build=['make ARCH=sm_70'],
 
 ## runtime
 ```python
-generic_build.runtime(self, _from=u'0')
+generic_build.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -1283,7 +1283,7 @@ generic_cmake(branch='v0.8.0',
 
 ## runtime
 ```python
-generic_cmake.runtime(self, _from=u'0')
+generic_cmake.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -1402,7 +1402,7 @@ openmpi(..., toolchain=g.toolchain, ...)
 
 ## runtime
 ```python
-gnu.runtime(self, _from=u'0')
+gnu.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -1513,7 +1513,7 @@ hdf5(check=True, configure_opts=['--enable-cxx', '--enable-fortran',
 
 ## runtime
 ```python
-hdf5.runtime(self, _from=u'0')
+hdf5.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -1628,7 +1628,7 @@ hpcx(prefix='/usr/local/hpcx', version='2.16')
 
 ## runtime
 ```python
-hpcx.runtime(self, _from=u'0')
+hpcx.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -1696,7 +1696,7 @@ intel_mpi(eula=True, version='2018.3-051')
 
 ## runtime
 ```python
-intel_mpi.runtime(self, _from=u'0')
+intel_mpi.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -1847,7 +1847,7 @@ openmpi(..., toolchain=i.toolchain, ...)
 
 ## runtime
 ```python
-intel_psxe.runtime(self, _from=u'0')
+intel_psxe.runtime(self, _from='0')
 ```
 Install the runtime from a full build in a previous stage
 # intel_psxe_runtime
@@ -1938,7 +1938,7 @@ intel_psxe_runtime(daal=False, eula=True, ipp=False, psxevars=False)
 
 ## runtime
 ```python
-intel_psxe_runtime.runtime(self, _from=u'0')
+intel_psxe_runtime.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -2011,7 +2011,7 @@ julia(depot='/tmp', history='/tmp/repl_history.jl')
 
 ## runtime
 ```python
-julia.runtime(self, _from=u'0')
+julia.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -2060,7 +2060,7 @@ knem(prefix='/opt/knem/1.1.3', version='1.1.3')
 
 ## runtime
 ```python
-knem.runtime(self, _from=u'0')
+knem.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -2152,7 +2152,7 @@ kokkos(prefix='/opt/kokkos/3.1.01', version='3.1.01')
 
 ## runtime
 ```python
-kokkos.runtime(self, _from=u'0')
+kokkos.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -2247,7 +2247,7 @@ libsim(prefix='/opt/libsim', version='2.13.3')
 
 ## runtime
 ```python
-libsim.runtime(self, _from=u'0')
+libsim.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -2318,7 +2318,7 @@ openmpi(..., toolchain=l.toolchain, ...)
 
 ## runtime
 ```python
-llvm.runtime(self, _from=u'0')
+llvm.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -2380,7 +2380,7 @@ magma(prefix='/opt/magma', version='2.5.3')
 
 ## runtime
 ```python
-magma.runtime(self, _from=u'0')
+magma.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -2445,7 +2445,7 @@ mkl(eula=True, version='2018.3-051')
 
 ## runtime
 ```python
-mkl.runtime(self, _from=u'0')
+mkl.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -2525,7 +2525,7 @@ mlnx_ofed(version='4.2-1.0.0.0')
 
 ## runtime
 ```python
-mlnx_ofed.runtime(self, _from=u'0')
+mlnx_ofed.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -2618,7 +2618,7 @@ mpich(prefix='/opt/mpich/3.3', version='3.3')
 
 ## runtime
 ```python
-mpich.runtime(self, _from=u'0')
+mpich.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -2687,7 +2687,7 @@ multi_ofed(inbox=True, mlnx_versions=['4.5-1.0.1.0', '4.6-1.0.1.1'],
 
 ## runtime
 ```python
-multi_ofed.runtime(self, _from=u'0')
+multi_ofed.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -2807,7 +2807,7 @@ mvapich2(configure_opts=['--disable-fortran', '--disable-mcast'])
 
 ## runtime
 ```python
-mvapich2.runtime(self, _from=u'0')
+mvapich2.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -2922,7 +2922,7 @@ mvapich2_gdr(package='mvapich2-gdr-mcast.cuda10.0.mofed4.3.gnu4.8.5-2.3-1.el7.x8
 
 ## runtime
 ```python
-mvapich2_gdr.runtime(self, _from=u'0')
+mvapich2_gdr.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -2996,7 +2996,7 @@ nccl(build=True, version='2.7.6-1')
 
 ## runtime
 ```python
-nccl.runtime(self, _from=u'0')
+nccl.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -3102,7 +3102,7 @@ netcdf(prefix='/opt/netcdf/4.6.1', version='4.6.1')
 
 ## runtime
 ```python
-netcdf.runtime(self, _from=u'0')
+netcdf.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -3300,7 +3300,7 @@ openmpi(..., toolchain=n.toolchain, ...)
 
 ## runtime
 ```python
-nvhpc.runtime(self, _from=u'0')
+nvhpc.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -3377,7 +3377,7 @@ nvshmem(mpi='/usr/local/nvshmem', version='2.9.0-2')
 
 ## runtime
 ```python
-nvshmem.runtime(self, _from=u'0')
+nvshmem.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -3448,7 +3448,7 @@ ofed()
 
 ## runtime
 ```python
-ofed.runtime(self, _from=u'0')
+ofed.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -3513,7 +3513,7 @@ openblas(prefix='/opt/openblas/0.3.1', version='0.3.1')
 
 ## runtime
 ```python
-openblas.runtime(self, _from=u'0')
+openblas.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -3675,7 +3675,7 @@ openmpi(pmi='/usr/local/slurm-pmi2', pmix='internal')
 
 ## runtime
 ```python
-openmpi.runtime(self, _from=u'0')
+openmpi.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -3865,7 +3865,7 @@ pgi(eula=True, tarball='pgilinux-2019-1910-x86_64.tar.gz')
 
 ## runtime
 ```python
-pgi.runtime(self, _from=u'0')
+pgi.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -4007,7 +4007,7 @@ pmix(prefix='/opt/pmix/3.1.4', version='3.1.4')
 
 ## runtime
 ```python
-pmix.runtime(self, _from=u'0')
+pmix.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -4101,7 +4101,7 @@ pnetcdf(toolchain=ompi.toolchain, ...)
 
 ## runtime
 ```python
-pnetcdf.runtime(self, _from=u'0')
+pnetcdf.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -4150,7 +4150,7 @@ python(python3=False)
 
 ## runtime
 ```python
-python.runtime(self, _from=u'0')
+python.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -4238,7 +4238,7 @@ rdma_core(repository='https://github.com/linux-rdma/rdma-core.git')
 
 ## runtime
 ```python
-rdma_core.runtime(self, _from=u'0')
+rdma_core.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -4302,7 +4302,7 @@ s += shell(commands=[...])
 
 ## runtime
 ```python
-scif.runtime(self, _from=u'0')
+scif.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -4398,7 +4398,7 @@ sensei(libsim='/usr/local/visit',
 
 ## runtime
 ```python
-sensei.runtime(self, _from=u'0')
+sensei.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -4483,7 +4483,7 @@ slurm_pmi2(prefix='/opt/pmi', version='20.11.9')
 
 ## runtime
 ```python
-slurm_pmi2.runtime(self, _from=u'0')
+slurm_pmi2.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -4648,7 +4648,7 @@ ucx(repository='https://github.com/openucx/ucx.git')
 
 ## runtime
 ```python
-ucx.runtime(self, _from=u'0')
+ucx.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
@@ -4733,7 +4733,7 @@ xpmem(prefix='/opt/xpmem', branch='master')
 
 ## runtime
 ```python
-xpmem.runtime(self, _from=u'0')
+xpmem.runtime(self, _from='0')
 ```
 Generate the set of instructions to install the runtime specific
 components from a build in a previous stage.
